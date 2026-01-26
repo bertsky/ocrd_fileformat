@@ -25,7 +25,7 @@ help:
 
 
 deps-ubuntu:
-	apt-get update && apt-get install -y openjdk-11-jdk-headless wget git gcc unzip
+	apt-get update && apt-get install -y openjdk-17-jdk-headless wget git gcc unzip
 
 deps:
 	$(PIP) install -r requirements.txt
